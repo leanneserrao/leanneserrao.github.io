@@ -11,36 +11,7 @@ body {background-image:url("bg.jpg");background-size:cover;}
 
 
 
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 14px 16px;
-    overflow: hidden;
-    background-color: black;
-    position: fixed;
-    top: 0;
-    width: 100%;
-   
-}
 
-li {
-    float: left;
-}
-
-li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-.active {
-    background-color: #4CAF50;
-}
-
-li a:hover {
-    background-color: grey;
-}
 
 div.img {
     margin: 30px;
@@ -67,6 +38,12 @@ div.desc {
 
 
 </style>
+<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
 </head>
 
 <body>
@@ -82,7 +59,13 @@ M&nbsp;A&nbsp;B&nbsp;E&nbsp;L
 
 
 
-  <li><a  class="active" href="home.html">HOME</a></li>
+  <nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      
+    </div>
+    <ul class="nav navbar-nav">
+      <li><a  class="active" href="home.html">HOME</a></li>
   <li><a  href="about us.html">ABOUT</a></li>
 <li><a  href="eye1.html">EYES</a></li>
 <li><a  href="face.html">FACE</a></li><li>
@@ -96,6 +79,9 @@ M&nbsp;A&nbsp;B&nbsp;E&nbsp;L
 
 <li><a  href="more.html">NEW</a></li>
 <li><a  href="contact.html">GET IN TOUCH</a></li>
+    </ul>
+  </div>
+</nav>
   
 </ul>
 <br><br><br><br><br><br><br><br>
